@@ -32,7 +32,91 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.add-button {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  /* width: 85px; */
+}
+
+.form {
+  display: grid;
+  background: white;
+  width: 500px;
+  height: 300px;
+  text-align: center;
+}
+
+.MuiModal-root modal css-79ws1d-MuiModal-root {
+  text-align: -webkit-center;
+}
+
+.MuiTypography-root {
+  display: grid;
+  /* grid-template-columns: min-content; */
+  justify-content: center;
+  /* grid-template-columns: 1fr 1fr; */
+}
+
+.cancel-button {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.save-button {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.add-button {
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+}
+
+.no-data {
+  display: grid;
+  justify-content: center;
+  padding: 10rem;
+}
+
+.header {
+  display: grid;
+  background: gainsboro;
+  /* text-align: center; */
+  justify-content: center;
+  padding: 25px;
+  font-size: 20px;
+  font-weight: 700;
+
+}
+
+.name{
+  color: black;
+  font-weight:100
+}
+/* .MuiPaper-root{
+  width: 250px;
+  height: 85px;
+  margin: 40px;
+} */
+
+.disabled {
+  opacity: 0.5; /* You can adjust the opacity or other styles as needed */
+  cursor: not-allowed;
+  /* Add any other styles you want to apply when the button is disabled */
+}
+
+.no {
+  display: grid;
+}
+.no > h1{
+  justify-self: center;
 }
